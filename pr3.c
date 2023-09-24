@@ -102,6 +102,7 @@ void linearSearch(struct class *c,int key){
     else 
         printf("student is Absent !");
 }
+// binary search 
 int BinarySearch(struct class *c , int key){
     int start = 0;
     int end = c->num - 1;
